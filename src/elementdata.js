@@ -1,0 +1,211 @@
+let element2 = [
+    {
+      id:0,
+      saved:false,
+       Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+      img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1019/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1016/200/150"],
+      type:"Cultural",
+      companyname: "name",
+      destination:"destination",
+      rate:50
+    },
+    {
+    id:1,
+      saved:false,
+       Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+      img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1020/200/150"],
+      type:"Cultural",
+      companyname: "name",
+      destination:"destination",
+      rate:20
+    },{
+    id:2,
+      saved:false,
+       Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+      img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+      type:"Cultural",
+      companyname: "name",
+      destination:"destination",
+      rate:0
+    },
+   
+    {
+        id:3,
+      saved:false,
+       Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+      img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+      type:"Beach",
+      companyname: "name",
+      destination:"destination",
+      rate:0
+    },
+    {  id:4,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+      img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+      type:"Beach",
+      companyname: "name",
+      destination:"destination",
+      rate:0
+    }, {
+        id:5,
+      saved:false,
+       Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+      img:["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+      type:"Beach",
+      companyname: "name",
+      destination:"destination",
+      rate:0
+    },
+    {
+        id:6,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+      img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+      type:"Desert",
+      companyname: "name",
+      destination:"destination",
+      rate:0
+    }
+    , {
+        id:7,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+      img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+      type:"Desert",
+      companyname: "name",
+      destination:"destination",
+      rate:0
+    }
+    , {
+        id:8,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+      img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+      type:"Desert",
+      companyname: "name",
+      destination:"destination",
+      rate:0
+    }
+    ,
+    {
+        id:9,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+        img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+        type:"Religious",
+        companyname: "name",
+        destination:"destination",
+        rate:0
+      },
+      {
+        id:10,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+        img:["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+        type:"Religious",
+        companyname: "name",
+        destination:"destination",
+        rate:0
+      }, {
+        id:11,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+        img:["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+        type:"Religious",
+        companyname: "name",
+        destination:"destination",
+        rate:0
+      },
+      {
+        id:12,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+        img: ["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+        type:"Shopping",
+        companyname: "name",
+        destination:"destination",
+        rate:0
+      },
+      {
+        id:13,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+        img:["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+        type:"Shopping",
+        companyname: "name",
+        destination:"destination",
+        rate:0
+      }, {
+        id:14,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+        img:["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+        type:"Shopping",
+        companyname: "name",
+        destination:"destination",
+        rate:0
+      },
+      {  id:15,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+        img:["https://picsum.photos/id/1015/200/150", "https://picsum.photos/id/1016/200/150", "https://picsum.photos/id/1018/200/150", "https://picsum.photos/id/1019/200/150"],
+        type:"Medical",
+        companyname: "name",
+        destination:"destination",
+        rate:0
+       },
+       {  id:16,
+        saved:true,
+        img: ["/The beauty of Egyptian nature 🇪🇬 📍Wadi Elweshwash Nuweiba Egypt Sinai.jpeg"],
+        type:"Medical",
+        companyname: "name",
+        destination:"destination",
+        rate:19
+       }, {
+        id:17,
+        saved:false,
+         Overview: "This flight offers a unique experience with comfort and convenience.",
+  included: "Meals, in-flight entertainment, and baggage handling are included.",
+  Additional: "Wi-Fi is available on board for an extra fee.",
+        img: ["/The beauty of Egyptian nature 🇪🇬 📍Wadi Elweshwash Nuweiba Egypt Sinai.jpeg"],
+        type:"Medical",
+        companyname: "name",
+        destination:"destination",
+        rate:0
+       },
+  ];
+
+  export { element2 };
