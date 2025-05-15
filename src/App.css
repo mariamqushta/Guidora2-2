@@ -18,6 +18,7 @@
 }
 .btn-main:hover {
   background-color: rgba(0, 0, 0, 0.7) !important; /* Darker on hover */
+  color:white !important;
 }
 .w-90{
   width: 90% !important;

@@ -24,6 +24,7 @@ const Shopping = () => {
 
   return (
     <div className="main-cards-container w-90 mx-auto mt-3">
+      <h1 className=" text-center my-3">Available flight</h1>
       <div className="row d-flex justify-content-between">
         {Shopping1.length > 0 ? (
           Shopping1.map((item) => (

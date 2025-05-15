@@ -24,6 +24,7 @@ const Cultural = () => {
 
   return (
     <div className="main-cards-container w-90 mx-auto mt-3">
+      <h1 className=" text-center my-3">Available flight</h1>
       <div className="row d-flex justify-content-between">
         {cultural1.length > 0 ? (
           cultural1.map((item) => (

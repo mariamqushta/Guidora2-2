@@ -86,9 +86,9 @@ const Sec2 = (props) => {
 
         <div className="d-flex justify-content-between">
           <div className="pb-3">
-            <p className="card-text mb-0 fs-2 h5 lead mt-2 ms-4">{props.companyname}</p>
-            <p className="card-text mb-0 fs-2 h5 lead mt-2 ms-4">{props.destination}</p>
-            <p className="card-text mb-0 fs-2 h5 lead mt-2 ms-4">
+            <p className="card-text mb-0 fs-2 h5 lead mt-2 ms-4 text-secondary">{props.companyname}</p>
+            <p className="card-text mb-0 fs-2 h5 lead mt-2 ms-4 text-secondary">{props.destination}</p>
+            <p className="card-text mb-0 fs-2 h5 lead mt-2 ms-4 text-secondary fw-bold">
               Your Rating: {renderStars()}
             </p>
           </div>

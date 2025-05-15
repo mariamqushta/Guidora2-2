@@ -24,7 +24,7 @@ const Sec1 = ({ img, h6, p, link }) => {
           <div className="d-flex justify-content-between align-items-center">
             <p className="card-text mb-0 fs-5 fw-light">{p}</p>
           </div>
-          <Link to={link} className="btn btn-main fs-5 mt-3">
+          <Link to={link} className="btn btn-main fs-5 mt-3 border border-dark">
             More <FaArrowCircleRight />
           </Link>
         </div>

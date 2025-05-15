@@ -318,12 +318,12 @@ const submitComment = () => {
 
 
         <div
-        className="mb-3 border-0"
+        className="mb-3 border-0 w-50 mx-auto mt-5"
         id="time-slots"
         style={{ display: showSlots ? 'block' : 'none', marginTop: '20px' }}
       >
         <label className="fw-bold mb-2">Select Time:</label>
-        <div className="d-flex flex-wrap gap-3">
+        <div className="d-flex flex-wrap gap-3 justify-content-center">
           {times.map((time, index) => (
             <label key={index} className="btn btn-outline-dark">
               <input
@@ -365,7 +365,7 @@ const submitComment = () => {
       <div className="sec2 mt-5 w-90 mx-auto">
   <h2 className="text-start ms-5 fs-2 mt-3 mb-3">Why travelers like this</h2>
   
-  <div className="slider-container container">
+  <div className="slider-container container w-100">
     <div className="comments-display">
       <div className="visible-comment">
         <p>{allComments[currentCommentIndex]}</p>
@@ -404,14 +404,14 @@ const submitComment = () => {
 
 
 
-        <div id="accordion" className="container mt-4 mx-auto mb-5">
+        <div id="accordion" className="container w-100 mt-4 mx-auto mb-5">
       
-        <div className="card">
+        <div className="card " onClick={() => toggleCollapse('collapseOne')}>
         <div className="card-header d-flex justify-content-between ">
           <span>Overview</span>
           <button
             className="btn w-25"
-            onClick={() => toggleCollapse('collapseOne')}
+            
           >
             <IoIosArrowDown />
           </button>
@@ -432,12 +432,12 @@ const submitComment = () => {
 
 
         
-      <div className="card">
+      <div className="card"  onClick={() => toggleCollapse('collapseTwo')}>
       <div className="card-header d-flex justify-content-between ">
           <span>What's included</span>
           <button
             className="btn w-25"
-            onClick={() => toggleCollapse('collapseTwo')}
+            
           >
             <IoIosArrowDown />
           </button>
@@ -456,12 +456,12 @@ const submitComment = () => {
       </div>
     
    
-      <div className="card">
+      <div className="card " onClick={() => toggleCollapse('collapseThree')}>
       <div className="card-header d-flex justify-content-between ">
           <span>Additional info</span>
           <button
             className="btn w-25"
-            onClick={() => toggleCollapse('collapseThree')}
+            
           >
             <IoIosArrowDown />
           </button>
@@ -486,7 +486,7 @@ const submitComment = () => {
 
       
 <h3 className="fs-3 mb-4 mt-3 ms-3">Share your experience!</h3>
-<div className="comment-form container mb-3 pt-2">
+<div className="comment-form container w-100 mb-3 pt-2">
     <textarea
       ref={commentInputRef}
       className="rounded shadow w-100"
