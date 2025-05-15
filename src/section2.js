@@ -14,8 +14,11 @@ const Sec2 = (props) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [rating, setRating] = useState(0);
 
+  const [isSaved, setIsSaved] = useState(false);
+
   const handleToggle = () => {
-    props.toggleSaved(props.id);
+    props.toggleSaved(props.id); // Call parent function
+    setIsSaved(!isSaved);        // Toggle local state
   };
 
   const images = Array.isArray(props.img) ? props.img : [props.img];
@@ -78,8 +81,10 @@ const Sec2 = (props) => {
         </div>
 
         <div
-          className="bookmark position-absolute text-center rounded-circle d-inline-flex align-items-center justify-content-center end-0 mb-3 mx-3 mt-2"
-          onClick={handleToggle}
+          className="bookmark bi bi-heart-fill position-absolute text-center rounded-circle d-inline-flex align-items-center justify-content-center end-0 mb-3 mx-3 mt-2"
+         
+      style={{ color: isSaved ? 'white' : 'black', cursor: 'pointer' }}
+      onClick={handleToggle}
         >
           <CiBookmark />
         </div>

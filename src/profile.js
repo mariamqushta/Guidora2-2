@@ -10,7 +10,7 @@ import Login from "./login";
 const Profile=()=>{
     return(
         <div>
-      <h1>Profile Page</h1>
+      <h1 className=" text-center my-3">Profile Page</h1>
       
       <Outlet />
     </div>
